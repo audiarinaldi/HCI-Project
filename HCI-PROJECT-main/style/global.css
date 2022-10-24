@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'nunito', sans-serif;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+}
+
+.max {
+    width: 100%;
+    height: auto;
+}
+
+#header {
+    height: 75px;
+    /* padding: 0 10%; */
+    width: 100%;
+    background-color: #171820;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    width: 10%;
+    height: auto;
+    margin-left: 4rem;
+    padding-top: 10px;
+    /* width: 135px; */
+    /* position: absolute; */
+    /* padding-left: 29.6%;
+    padding-right: 10%; */
+    /* top: 8px; */
+}
+
+.burger-button {
+    height: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 50%;
+}
+
+#dropdown {
+    margin-left: 3rem;
+    /* position: relative; */
+    /* width: 75px; */
+    /* height: 100%; */
+}
+
+#dropdown-content {
+    display: none;
+    flex-flow: column;
+    position: absolute;
+    top: 75px;
+    left: 38px;
+    background-color: #BCB6AE;
+    border-radius: 5pt;
+    font-weight: 800;
+}
+
+#dropdown-content a {
+    padding: 20px;
+    padding-right: 100px;
+    text-decoration: none;
+    background-color: none;
+    color: #171820;
+}
+
+#dropdown-content a:hover {
+    background-color: #DF861D;
+    border-radius: 5pt;
+    z-index: 2;
+    z-index: 1;
+}
+
+#dropdown:hover #dropdown-content {
+    display: flex;
+    z-index: 2;
+    z-index: 1;
+}
+
+
+#login {
+    
+    padding:0.3em 1.2em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    text-align:center;
+    transition: all 0.2s;
+    font-size: 15px;
+    text-decoration: none;
+    /* position: absolute; */
+    color: #171820;
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px; */
+    /* top: 20px;
+    left: 90%; */
+    margin-right: 3rem;
+    /* border-radius: 20px;  */
+    background-color: #FDC029;
+}
+
+#login:hover {
+    color: #FDC029;
+    /* top: 20px;
+    left: 90%; */
+    background-color: #AA3D01;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #FDC029;
+}
+
+footer {
+    display: flex;
+    background-color: #171820;
+    color: #DED6D6;
+    width: 100%;
+    height: 75px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 5%;
+}
+
+#copyright {
+    /* display: flex; */
+    align-items: center;
+    position: absolute;
+    /* top: 41%; */
+    font: lato;
+    color: white;
+    justify-content: space-between;
+}
+
+
+@media (max-width: 800px) {
+    header {
+        display: flex;
+        width: 100%;
+    }
+
+    #login {
+        width:10%;
+        font-size: 50%;
+        height:auto;
+    }
+} 

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Hoops Universe</title>
+    <link rel="icon" type="image/png" href="assets/Main-logo.png" />
+    <link href="style/global.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/login.css">
+    <script src="script/login.js" defer></script>
+</head>
+
+<header>
+    <div id="header">
+        <div id="dropdown">
+            <a class="burger-button" href="#">
+                <img id="fill" class="burger-button" src="assets/Burger.png">
+            </a>
+            <div id="dropdown-content">
+                <a href="Home.html"> Home </a>
+                <a href="Shoes.html"> Shoes </a>
+                <a href="Accessories.html"> Accessories </a>
+                <a href="faq.html"> FAQ </a>
+                <a href="purchase.html"> Purchase </a>
+            </div>
+        </div>
+        <img id="logo" src="assets/Main-logo.png" />
+        <a href="login.html" id="login">Login</a>
+    </div>
+</header>
+
+<body>
+    <div id="container1">
+        <div class="form">
+            <h2>Login</h2>
+            <form id="LoginForm">
+                <div class="user">
+                    <input type="text" name="nameTxt">
+                    <label>Name</label>
+                </div>
+                <div class="user">
+                    <input type="password" name="passwordTxt">
+                    <label>Password</label>
+                </div>
+                <div class="user">
+                    <input type="password" name="confPassTxt">
+                    <label>Confirmation Password</label>
+                </div>
+                <div class="user">
+                    <input type="text" name="emailTxt">
+                    <label>Email</label>
+                </div>
+                <div id="condition">
+                    <input type="checkbox" name="Tos" id="Tos">
+                    <label>I agree to the Terms & Condition</label>
+                </div>
+                <div>
+                    <div id="colspan">
+                        <p id="errorMessage"></p>
+                    </div>
+                </div>
+                <button type="submit">
+                    Submit
+                </button>
+            </form>
+        </div>
+    </div>
+
+</body>
+<footer>
+    <div id="copyright">
+        <h5>&copy; Hoops Universe. 2021. All Right Reserved.</h5>
+    </div>
+</footer>
+
+</html>

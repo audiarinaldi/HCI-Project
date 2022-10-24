@@ -1,0 +1,253 @@
+body {
+    /* background-color: #DED6D6; */
+    font-family: 'nunito', sans-serif;
+    background-color: #171820;
+}
+
+.container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    
+}
+
+.banner img {
+    width: 100%;
+    
+}
+
+.banner {
+    display: none;
+    
+}
+
+.container button {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 20px;
+    color: #FDC029;
+    font-size: 20px;
+}
+
+.container button:active {
+    background-color: white;
+}
+
+#next:hover {
+    background-color: white;
+}
+
+#next {
+    right: 0;
+    background-color: transparent;
+    border: transparent;
+    border-radius: 10px;
+}
+
+#prev:hover {
+    background-color: white;
+}
+
+#prev {
+    border-radius: 10px;
+    background-color: transparent;
+    border: transparent;
+}
+
+#container-1 {
+    padding: 5px;
+    background-color: #DED6D6;
+}
+
+.container1-head {
+    text-align: center;
+    color: #171820;
+    /* padding-top: 10px; */
+    display: absolute;
+    padding-bottom: 10px;
+    margin-top: 50px;
+    font-weight: 800;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+    margin-top: 5%;
+}
+
+.container1 img {
+    overflow-x: hidden;
+    flex-wrap: wrap;
+}
+
+.bola {
+    width: 101px;
+    overflow: hidden;
+}
+
+.sepatu-nike {
+    width: 110px;
+    overflow: hidden;
+}
+
+.sepatu-adidas {
+    width: 93px;
+    overflow: hidden;
+}
+
+.tas {
+    width: 110px;
+    overflow: hidden;
+}
+
+.headband {
+    width: 93px;
+    overflow: hidden;
+}
+
+.popular {
+    padding: 5px;
+    border-radius: 7px;
+    text-align: center;
+    overflow-x: hidden;
+    background-color: white;
+}
+
+.popular {
+    width: 15%;
+    transition: 1s ease;
+}
+
+.popular:hover {
+    box-shadow: 2px 5px 5px 0px #BCB6AE, 0px 6px 20px 0px #BCB6AE;
+    width: 17%;
+}
+
+#container-2 {
+    padding: 5px;
+    background-color: #171820;
+}
+
+.container2-head {
+    text-align: center;
+    color: #DED6D6;
+    /* padding-top: 10px; */
+    display: absolute;
+    padding-bottom: 10px;
+    margin-top: 50px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+    margin-top: 5%;
+}
+
+.container2 img {
+    overflow-x: hidden;
+    flex-wrap: wrap;
+}
+
+.bola {
+    width: 101px;
+    overflow: hidden;
+}
+
+.sepatu-nike {
+    width: 110px;
+    overflow: hidden;
+}
+
+.sepatu-adidas {
+    width: 93px;
+    overflow: hidden;
+}
+
+.tas {
+    width: 110px;
+    overflow: hidden;
+}
+
+.headband {
+    width: 93px;
+    overflow: hidden;
+}
+
+.popular {
+    padding: 5px;
+    border-radius: 7px;
+    text-align: center;
+    overflow-x: hidden;
+    background-color: white;
+}
+
+.popular {
+    width: 15%;
+    transition: 1s ease;
+}
+
+.popular:hover {
+    box-shadow: 2px 5px 5px 0px #BCB6AE, 0px 6px 20px 0px #BCB6AE;
+    width: 17%;
+}
+
+
+/* footer {
+    position: absolute;
+} */
+
+@media (max-width: 1080px) {
+    .container1,
+    .popular,
+    .container1 img,h4,p{
+        display: flex;
+        flex-direction: column;
+        width:50%;
+        font-size: 80%;
+        align-items: center;
+    }
+    .popular {
+        margin-bottom: 5%;
+        margin-left: 60%;
+    }
+    .bola{
+        margin-left: 25%;
+    }
+    .sepatu-adidas{
+        margin-left: 25%;
+    }
+    .sepatu-nike{
+        margin-left: 25%;
+    }
+    .tas{
+        margin-left: 25%;
+    }
+    .headband{
+        margin-left: 25%;
+    }
+    
+}
+
+@media (max-width: 1080px) {
+    .container2,
+    .popular,
+    .container2 img {
+        display: flex;
+        flex-direction: column;
+        width:50%;
+        font-size: 80%;
+    }
+    .popular {
+        margin-bottom: 5%;
+    }
+}

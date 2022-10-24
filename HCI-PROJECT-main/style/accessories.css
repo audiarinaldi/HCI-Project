@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'nunito', sans-serif;
+}
+
+body {
+    background-color: #DED6D6;
+}
+
+
+/* ----- accessories ------ */
+
+.small-container {
+    /* max-width: 1080px; */
+    margin: auto;
+    padding-left: 10%;
+    padding-right: 9.7%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+}
+
+.small-container select {
+    margin-left: 20px;
+    font-size: small;
+    background-color: #DED6D6;
+}
+
+select {
+    border: 1px solid #DED6D6;
+    padding: 5px;
+    padding-top: 1%;
+    background-color: #DED6D6;
+}
+
+select:focus {
+    outline: none;
+}
+
+
+/* -------- Sepatu -------- */
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 75px;
+    padding-right: 75px;
+    font-size: large;
+}
+
+.Accessories-banyak {
+    flex-basis: 25%;
+    padding: 25px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    background-color: whitesmoke;
+    border-radius: 12px;
+}
+
+.Accessories-banyak img {
+    width: 325px;
+}
+
+footer {
+    position: absolute;
+}
+
+@media (max-width: 1080px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .Accessories-banyak img{
+        padding-left: 10%;
+    }
+    .small-container,.text{
+        font-size: 50%;
+    }
+    h4,p {
+        font-size: 230%;
+    }
+    
+}
+
+@media (max-width: 1250px) {
+    .Accessories-banyak img , 
+    .Accessories-banyak h4,
+    .Accessories-banyak p {
+        width:50%;
+        height:auto;
+        padding:auto;
+        font-size: 90%;
+    }
+    
+}
+
+@media (width:200px) {
+    header{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Hoops Universe</title>
+    <link rel="icon" type="image/png" href="assets/Main-logo.png" />
+    <link href="style/global.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/purchase.css">
+    <script src="script/purchase.js" defer></script>
+</head>
+
+<header>
+    <div id="header">
+        <div id="dropdown">
+            <a class="burger-button" href="#">
+                <img id="fill" class="burger-button" src="assets/Burger.png">
+            </a>
+            <div id="dropdown-content">
+                <a href="Home.html"> Home </a>
+                <a href="Shoes.html"> Shoes </a>
+                <a href="Accessories.html"> Accessories </a>
+                <a href="faq.html"> FAQ </a>
+                <a href="purchase.html"> Purchase </a>
+            </div>
+        </div>
+        <img id="logo" src="assets/Main-logo.png" />
+        <a href="login.html" id="login">Login</a>
+    </div>
+</header>
+
+<body>
+    <div id="container1">
+        <div class="form">
+            <h2>Purchase</h2>
+            <form id="PurchaseForm">
+                <div class="user">
+                    <input type="text" name="nameTxt">
+                    <label>Name</label>
+                </div>
+                <div class="user">
+                    <input type="number" name="phoneTxt">
+                    <label>Phone Number</label>
+                </div>
+                <div class="user">
+                    <input type="email" name="emailTxt">
+                    <label>Email</label>
+                </div>
+
+                <div class="user">
+                    <input type="number" name="ageTxt">
+                    <label>Age</label>
+                </div>
+                <div class="user">
+                    <input type="text" name="districtTxt">
+                    <label>District</label>
+                </div>
+                <div class="user">
+                    <input type="text" name="addressTxt">
+                    <label>Address</label>
+                </div>
+                <div class="user">
+                    <input type="number" name="postalTxt">
+                    <label>Postal Code</label>
+                </div>
+                <div class="user">
+                    <input type="text" name="notesTxt" id="notes">
+                    <label>Aditional Notes</label>
+                </div>
+                <div class="user">
+                    <select name="genderTxt">
+                        <option value="">None</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                    <label>Gender</label>
+                </div>
+                <div>
+                    <div id="colspan">
+                        <p id="errorMessage"></p>
+                    </div>
+                </div>
+                <button type="submit">
+                    Submit
+                </button>
+            </form>
+        </div>
+    </div>
+
+</body>
+<footer>
+    <div id="copyright">
+        <h5>&copy; Hoops Universe. 2021. All Right Reserved.</h5>
+    </div>
+</footer>
+
+</html>
